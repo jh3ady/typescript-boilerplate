@@ -78,5 +78,5 @@
   },
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": { "typescript": "^5.2.2" }
 }
