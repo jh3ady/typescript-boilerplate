@@ -86,7 +86,8 @@
     "pretest:coverage": "bun run test:coverage:remove",
     "test:coverage": "jest --coverage",
     "test:coverage:remove": "rimraf coverage",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {},
   "devDependencies": {
