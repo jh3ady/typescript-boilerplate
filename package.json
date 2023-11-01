@@ -77,8 +77,9 @@
     "bun": "^1.0.7"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "tsc"
+    "prebuild": "bun run build:remove",
+    "build": "tsc",
+    "build:remove": "rimraf dist"
   },
   "dependencies": {},
   "devDependencies": {
