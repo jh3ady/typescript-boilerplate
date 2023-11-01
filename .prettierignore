@@ -1,0 +1,9 @@
+# Git
+.gitignore
+.gitkeep
+
+# Bun
+bun.lockb
+
+# Prettier
+.prettierignore
