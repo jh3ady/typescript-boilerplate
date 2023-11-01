@@ -1,3 +1,6 @@
 # Git
 .gitignore
 .gitkeep
+
+# Bun
+bun.lockb
