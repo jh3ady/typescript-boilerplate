@@ -9,7 +9,9 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {},
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error"
+  },
   "overrides": [
     {
       "files": "*.test.ts",
