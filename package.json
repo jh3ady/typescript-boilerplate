@@ -88,7 +88,8 @@
     "test:coverage:remove": "rimraf coverage",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint --fix --ext .ts src"
+    "lint": "eslint --fix --ext .ts src",
+    "lint:check": "eslint --ext .ts src"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
