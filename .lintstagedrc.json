@@ -1,0 +1,4 @@
+{
+  "*": "bun run format",
+  "*.ts": "bun run lint"
+}
