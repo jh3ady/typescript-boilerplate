@@ -4,3 +4,6 @@
 
 # Bun
 bun.lockb
+
+# Prettier
+.prettierignore
