@@ -79,7 +79,8 @@
   "scripts": {
     "prebuild": "bun run build:remove",
     "build": "tsc",
-    "build:remove": "rimraf dist"
+    "build:remove": "rimraf dist",
+    "build:watch": "tsc --build"
   },
   "dependencies": {},
   "devDependencies": {
