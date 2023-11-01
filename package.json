@@ -76,7 +76,9 @@
     "node": "^20.9.0",
     "bun": "^1.0.7"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {},
   "devDependencies": { "typescript": "^5.2.2" }
 }
