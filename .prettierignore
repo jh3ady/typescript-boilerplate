@@ -7,3 +7,6 @@ bun.lockb
 
 # Prettier
 .prettierignore
+
+# Husky
+.husky/pre-commit
