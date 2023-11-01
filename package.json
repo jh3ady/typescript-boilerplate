@@ -78,7 +78,7 @@
   },
   "scripts": {
     "prebuild": "bun run build:remove",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "build:remove": "rimraf dist",
     "build:watch": "tsc --build"
   },
