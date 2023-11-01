@@ -1,0 +1,12 @@
+# Git
+.gitignore
+.gitkeep
+
+# Bun
+bun.lockb
+
+# Prettier
+.prettierignore
+
+# Husky
+.husky/pre-commit
