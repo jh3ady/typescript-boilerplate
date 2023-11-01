@@ -1,0 +1,90 @@
+{
+  "name": "@jh3ady/typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript boilerplate providing a solid foundation for building scalable and maintainable applications",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/jh3ady/typescript-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/jh3ady/typescript-boilerplate/issues",
+    "email": "contact@jdevelop.io"
+  },
+  "contributors": [
+    {
+      "name": "Jean-Denis VIDOT",
+      "email": "contact@jdevelop.io",
+      "url": "https://github.com/jh3ady/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jh3ady/typescript-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate",
+    "starter",
+    "template",
+    "scaffold",
+    "seed",
+    "project",
+    "development",
+    "environment",
+    "configuration",
+    "web",
+    "frontend",
+    "backend",
+    "node.js",
+    "node",
+    "api",
+    "server",
+    "client",
+    "framework",
+    "build",
+    "tooling",
+    "automation",
+    "testing",
+    "jest",
+    "eslint",
+    "prettier",
+    "continuous integration",
+    "cicd",
+    "ci/cd",
+    "deployment",
+    "docker",
+    "container",
+    "microservices",
+    "monorepo",
+    "open source",
+    "opensource",
+    "configurable",
+    "minimal",
+    "lightweight",
+    "fast",
+    "modern",
+    "scalable",
+    "production-ready",
+    "production ready",
+    "production",
+    "ready"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": "^20.9.0",
+    "bun": "^1.0.7"
+  },
+  "scripts": {
+    "prebuild": "bun run build:remove",
+    "build": "tsc -p tsconfig.build.json",
+    "build:remove": "rimraf dist",
+    "build:watch": "tsc -p tsconfig.build.json --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
