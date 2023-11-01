@@ -83,6 +83,7 @@
     "build:watch": "tsc -p tsconfig.build.json --watch",
     "test": "jest",
     "test:watch": "jest --watch",
+    "pretest:coverage": "bun run test:coverage:remove",
     "test:coverage": "jest --coverage",
     "test:coverage:remove": "rimraf coverage"
   },
