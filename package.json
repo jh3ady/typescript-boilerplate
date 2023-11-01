@@ -80,7 +80,8 @@
     "prebuild": "bun run build:remove",
     "build": "tsc -p tsconfig.build.json",
     "build:remove": "rimraf dist",
-    "build:watch": "tsc -p tsconfig.build.json --watch"
+    "build:watch": "tsc -p tsconfig.build.json --watch",
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
