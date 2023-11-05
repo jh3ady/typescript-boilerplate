@@ -86,6 +86,7 @@
     "test:watch": "jest --watch",
     "pretest:coverage": "bun run test:coverage:remove",
     "test:coverage": "jest --coverage",
+    "test:coverage:watch": "jest --coverage --watch",
     "test:coverage:remove": "rimraf coverage",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
